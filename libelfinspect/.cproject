@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?>
+
+<cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="com.rohde_schwarz.buildif.config.debug.1657359993">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.rohde_schwarz.buildif.config.debug.1657359993" moduleId="org.eclipse.cdt.core.settings" name="debug">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildArtefactType="com.rohde_schwarz.buildif.buildArtefactType.buildif" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=com.rohde_schwarz.buildif.buildArtefactType.buildif" description="" id="com.rohde_schwarz.buildif.config.debug.1657359993" name="debug" parent="com.rohde_schwarz.buildif.config.debug">
+					<folderInfo id="com.rohde_schwarz.buildif.config.debug.1657359993." name="/" resourcePath="">
+						<toolChain id="com.rohde_schwarz.buildif.config.debug.toolchain.1128419259" name="RS Cross Toolchain (all architectures)" superClass="com.rohde_schwarz.buildif.config.debug.toolchain">
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="cdt.managedbuild.targetPlatform.gnu.cross.2079487017" isAbstract="false" osList="all" superClass="cdt.managedbuild.targetPlatform.gnu.cross"/>
+							<builder buildPath="/home/RSINT/runge_m/devel/tools-ws/libelfinspect/_x86" id="com.rohde_schwarz.buildif.toolchain.builder.688457230" managedBuildOn="true" name="R&amp;S Build-IF Builder.debug" superClass="com.rohde_schwarz.buildif.toolchain.builder"/>
+							<tool id="cdt.managedbuild.tool.gnu.cross.c.compiler.1758818291" name="Cross GCC Compiler" superClass="cdt.managedbuild.tool.gnu.cross.c.compiler"/>
+							<tool id="cdt.managedbuild.tool.gnu.cross.cpp.compiler.1816274819" name="Cross G++ Compiler" superClass="cdt.managedbuild.tool.gnu.cross.cpp.compiler"/>
+							<tool id="cdt.managedbuild.tool.gnu.cross.c.linker.1373855202" name="Cross GCC Linker" superClass="cdt.managedbuild.tool.gnu.cross.c.linker"/>
+							<tool id="cdt.managedbuild.tool.gnu.cross.cpp.linker.203218845" name="Cross G++ Linker" superClass="cdt.managedbuild.tool.gnu.cross.cpp.linker"/>
+							<tool id="cdt.managedbuild.tool.gnu.cross.archiver.1995068784" name="Cross GCC Archiver" superClass="cdt.managedbuild.tool.gnu.cross.archiver"/>
+							<tool id="cdt.managedbuild.tool.gnu.cross.assembler.551333192" name="Cross GCC Assembler" superClass="cdt.managedbuild.tool.gnu.cross.assembler"/>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="com.rohde_schwarz.buildif.config.release.133232300">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.rohde_schwarz.buildif.config.release.133232300" moduleId="org.eclipse.cdt.core.settings" name="release">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildArtefactType="com.rohde_schwarz.buildif.buildArtefactType.buildif" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=com.rohde_schwarz.buildif.buildArtefactType.buildif" description="" id="com.rohde_schwarz.buildif.config.release.133232300" name="release" parent="com.rohde_schwarz.buildif.config.release">
+					<folderInfo id="com.rohde_schwarz.buildif.config.release.133232300." name="/" resourcePath="">
+						<toolChain id="com.rohde_schwarz.buildif.config.release.toolchain.1401238278" name="RS Cross Toolchain (all architectures)" superClass="com.rohde_schwarz.buildif.config.release.toolchain">
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="cdt.managedbuild.targetPlatform.gnu.cross.812473257" isAbstract="false" osList="all" superClass="cdt.managedbuild.targetPlatform.gnu.cross"/>
+							<builder buildPath="/home/RSINT/runge_m/devel/tools-ws/libelfinspect/debug_x86" id="com.rohde_schwarz.buildif.toolchain.builder.1272682123" managedBuildOn="true" name="R&amp;S Build-IF Builder.release" superClass="com.rohde_schwarz.buildif.toolchain.builder"/>
+							<tool id="cdt.managedbuild.tool.gnu.cross.c.compiler.53806526" name="Cross GCC Compiler" superClass="cdt.managedbuild.tool.gnu.cross.c.compiler"/>
+							<tool id="cdt.managedbuild.tool.gnu.cross.cpp.compiler.1694901040" name="Cross G++ Compiler" superClass="cdt.managedbuild.tool.gnu.cross.cpp.compiler"/>
+							<tool id="cdt.managedbuild.tool.gnu.cross.c.linker.711542236" name="Cross GCC Linker" superClass="cdt.managedbuild.tool.gnu.cross.c.linker"/>
+							<tool id="cdt.managedbuild.tool.gnu.cross.cpp.linker.1044338033" name="Cross G++ Linker" superClass="cdt.managedbuild.tool.gnu.cross.cpp.linker"/>
+							<tool id="cdt.managedbuild.tool.gnu.cross.archiver.523596517" name="Cross GCC Archiver" superClass="cdt.managedbuild.tool.gnu.cross.archiver"/>
+							<tool id="cdt.managedbuild.tool.gnu.cross.assembler.138140309" name="Cross GCC Assembler" superClass="cdt.managedbuild.tool.gnu.cross.assembler"/>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="libelfinspect.com.rohde_schwarz.buildif.projectType.109200764" name="RS Build-IF Project" projectType="com.rohde_schwarz.buildif.projectType"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+	</storageModule>
+</cproject>

@@ -1,0 +1,40 @@
+#!/bin/bash
+
+###############################################################################
+#
+#   Build Interface for cmake based projects
+#
+#   Author:   Martin Runge <martin.runge@rohde-schwarz.com>
+#
+###############################################################################
+
+source /home/buildsys4/buildif/defaults.sh
+source /home/buildsys4/buildif/basecmake.sh
+
+MAKE="clearmake -C gnu"
+
+configure()
+{
+	parse_configure_args $@
+	run_cmake
+}
+
+
+build()
+{
+	${MAKE} VERBOSE=1
+}
+
+stage()
+{
+	${MAKE} install
+}
+
+
+install()
+{
+	${MAKE} install
+}
+
+
+source /home/buildsys4/buildif/buildif.sh
